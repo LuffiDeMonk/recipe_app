@@ -1,0 +1,23 @@
+.navbar {
+  position: sticky;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-nav .nav-item {
+  color: black !important;
+  padding-right: 1rem;
+}
+a {
+  color: black;
+}
+@media screen and (max-width: 1062px) {
+  .nav-item:hover {
+    background: rgba(0, 0, 0, 0.397);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    padding-top: 1rem;
+  }
+}

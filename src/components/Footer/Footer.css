@@ -1,0 +1,27 @@
+.wrapper {
+  height: 100%;
+}
+.footer {
+  height: 80vh;
+  color: white;
+}
+.icon {
+  width: 20rem;
+}
+.link-wrapper {
+  margin-top: 3rem;
+}
+Link {
+  color: white;
+}
+.footerText {
+  margin-top: 10rem;
+}
+@media screen and (max-width: 800px) {
+  .icon {
+    margin-top: 2rem;
+  }
+  .footerText {
+    margin-top: 1rem;
+  }
+}

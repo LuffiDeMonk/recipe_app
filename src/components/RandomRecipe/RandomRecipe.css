@@ -1,0 +1,43 @@
+.text-title {
+  padding: 2rem;
+  text-decoration: underline 5px rgba(255, 255, 44, 0.895);
+  text-underline-offset: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.wrapper {
+  padding: 2rem;
+}
+.img-container {
+  max-width: 40rem;
+  max-height: 40rem;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.dish-title {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dish-title:hover {
+  color: orangered;
+}
+Link {
+  text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .text-title {
+    font-size: 1.3rem;
+  }
+  .img-container {
+    max-width: 20rem !important;
+    max-height: 20rem !important;
+  }
+  .dish-title {
+    font-size: 1rem;
+  }
+}

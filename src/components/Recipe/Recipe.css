@@ -1,0 +1,20 @@
+.image-container {
+  width: 100%;
+  max-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.nutrition {
+  background: rgba(81, 239, 239, 0.475);
+}
+.title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+@media screen and (max-width: 400px) {
+  .btn {
+    width: 8rem !important;
+  }
+}
